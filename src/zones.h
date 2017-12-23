@@ -4,21 +4,19 @@
  *  ShowEQ Distributed under GPL
  *  http://seq.sourceforge.net/
  */
-
 /* Maps zoneId numbers to strings, used in util.cpp */
-
 { NULL, NULL }, // 0
 { "qeynos", "South Qeynos" }, // 1
 { "qeynos2", "North Qeynos" }, // 2
 { "qrg", "Surefall Glade" }, // 3
 { "qeytoqrg", "Qeynos Hills" }, // 4
 { NULL, NULL }, // 5
-{ "highkeep", "HighKeep" }, // 6
+{ "highkeep", "High Keep" }, // 6
 { NULL, NULL }, // 7
 { "freportn", "North Freeport" }, // 8
 { "freportw", "West Freeport" }, // 9
 { "freporte", "East Freeport" }, // 10
-{ "runnyeye", "Clan RunnyEye" }, // 11
+{ "runnyeye", "Clan Runnyeye" }, // 11
 { "qey2hh1", "West Karana" }, // 12
 { "northkarana", "North Karana" }, // 13
 { "southkarana", "South Karana" }, // 14
@@ -86,7 +84,7 @@
 { "hateplane", "The Plane of Hate" }, // 76
 { "arena", "The Arena" }, // 77
 { "fieldofbone", "The Field of Bone" }, // 78
-{ "warslikswood", "Warsliks Wood" }, // 79
+{ "warslikswood", "Warsliks Woods" }, // 79
 { "soltemple", "Temple of Solusek Ro" }, // 80
 { "droga", "Temple of Droga" }, // 81
 { "cabwest", "West Cabilis" }, // 82
@@ -197,7 +195,7 @@
 { "shadowrest", "Shadowrest" }, // 187
 { "tutoriala", "The Mines of Gloomingdeep" }, // 188
 { "tutorialb", "The Mines of Gloomingdeep" }, // 189
-{ "clz", "Loading" }, // 190
+{ NULL, NULL }, // 190
 { NULL, NULL }, // 191
 { NULL, NULL }, // 192
 { NULL, NULL }, // 193
@@ -293,7 +291,7 @@
 { "barindu", "Barindu, Hanging Gardens" }, // 283
 { "ferubi", "Ferubi, Forgotten Temple of Taelosia" }, // 284
 { "snpool", "Sewers of Nihilia, Pool of Sludge" }, // 285
-{ "snlair", "Sewers of Nihilia, Lair of Trapped Ones" }, // 286
+{ "snlair", "Sewers of Nihilia, Lair of Trapped Ones..." }, // 286
 { "snplant", "Sewers of Nihilia, Purifying Plant" }, // 287
 { "sncrematory", "Sewers of Nihilia, the Crematory" }, // 288
 { "tipt", "Tipt, Treacherous Crags" }, // 289
@@ -324,7 +322,7 @@
 { NULL, NULL }, // 314
 { NULL, NULL }, // 315
 { "provinggrounds", "Muramite Proving Grounds" }, // 316
-{ "anguish", "Asylum of Anguish" }, // 317
+{ "anguish", "Anguish, the Fallen Palace" }, // 317
 { "dranikhollowsa", "Dranik's Hollows" }, // 318
 { "dranikhollowsb", "Dranik's Hollows" }, // 319
 { "dranikhollowsc", "Dranik's Hollows" }, // 320
@@ -359,8 +357,8 @@
 { "illsalinb", "Temple of the Korlach" }, // 349
 { "illsalinc", "The Nargilor Pits" }, // 350
 { "dreadspire", "Dreadspire Keep" }, // 351
-{ "dreadspirea", "The Torture Chamber" }, // 352 (removed before launch)
-{ "dreadspireb", "The Artifact Room" }, // 353 (removed before launch)
+{ "dreadspirea", "The Torture Chamber" }, // 352(removed before launch)
+{ "dreadspireb", "The Artifact Room" }, // 353(removed before launch)
 { "drachnidhive", "The Hive" }, // 354
 { "drachnidhivea", "Living Larder" }, // 355
 { "drachnidhiveb", "Coven of the Skinwalkers" }, // 356
@@ -419,7 +417,7 @@
 { "oceanoftears", "Ocean of Tears" }, // 409
 { "kithforest", "Kithicor Forest" }, // 410
 { "befallenb", "Befallen" }, // 411
-{ "highpasskeep", "HighKeep" }, // 412
+{ "highpasskeep", "High Keep" }, // 412
 { "innothuleb", "Innothule Swamp" }, // 413
 { "toxxulia", "Toxxulia Forest" }, // 414
 { "mistythicket", "Misty Thicket" }, // 415
@@ -786,7 +784,7 @@
 { "arginhiz", "Argin-Hiz" }, // 776
 { "exalted", "Sul Vius: Demiplane of Life" }, // 777
 { "arxmentis", "Arx Mentis" }, // 778
-{  "brotherisland", "Brother Island" }, // 779
+{ "brotherisland", "Brother Island" }, // 779
 { "kattacastrumb", "Katta Castrum: Deluge" }, // 780
 { "dredge", "Combine Dredge" }, // 781
 { "endlesscaverns", "Caverns of Endless Song" }, // 782
@@ -796,18 +794,18 @@
 { "plhpirateshipint", "Pirate Ship" }, // 786
 { "gnomemtn", "Gnome Memorial Mountain" }, // 787
 { "drogab", "The Temple of Droga" }, // 788
-{ "charasisb", "The Howling Stones" }, // 789
+{ "charasisb", "Sathir's Tomb" }, // 789
 { "scorchedwoods", "Scorched Woods" }, // 790
 { "frontiermtnsb", "Frontier Mountains" }, // 791
 { "gorowyn", "Gorowyn" }, // 792
-{ "korsha", "Kor'Sha Laboratory" }, // 793
+{ "korshaext", "Gates of Kor-Sha" }, // 793
 { "lceanium", "Lceanium" }, // 794
 { "cosul", "Crypt of Sul" }, // 795
 { "codecayb", "Ruins of Lxanvom" }, // 796
 { "exaltedb", "Sul Vius: Demiplane of Decay" }, // 797
 { "pohealth", "The Plane of Health" }, // 798
-{ NULL, NULL }, // 799
-{ NULL, NULL }, // 800
+{ "korshaint", "Kor-Sha Laboratory" }, // 799
+{ "chardoktwo", "Chardok" }, // 800
 { NULL, NULL }, // 801
 { NULL, NULL }, // 802
 { NULL, NULL }, // 803
@@ -820,15 +818,15 @@
 { NULL, NULL }, // 810
 { NULL, NULL }, // 811
 { NULL, NULL }, // 812
-{ NULL, NULL }, // 813
-{ NULL, NULL }, // 814
-{ NULL, NULL }, // 815
-{ NULL, NULL }, // 816
-{ NULL, NULL }, // 817
-{ NULL, NULL }, // 818
-{ NULL, NULL }, // 819
-{ NULL, NULL }, // 820
-{ NULL, NULL }, // 821
+{ "charasistwo", "Howling Stones" }, // 813
+{ "skyfiretwo", "Skyfire Mountains" }, // 814
+{ "overtheretwo", "The Overthere" }, // 815
+{ "veeshantwo", "Veeshan's Peak" }, // 816
+{ "clz-winter", "Loading" }, // 817
+{ "clz-anniversary", "Loading" }, // 818
+{ "clz-spring", "Loading" }, // 819
+{ "clz-autumn", "Loading" }, // 820
+{ "clz-frostfell", "Loading" }, // 821
 { NULL, NULL }, // 822
 { NULL, NULL }, // 823
 { NULL, NULL }, // 824
