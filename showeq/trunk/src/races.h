@@ -160,14 +160,14 @@
     "Tribunal",                   // 151
     "Bertoxxulous",               // 152
     "Bristlebane",                // 153
-    "Fay Drake",                  // 154
-    "Undead Sarnak",              // 155
+    "Fae Drake",                  // 154
+    "Sarnak Skeleton",            // 155
     "Ratman",                     // 156
     "Wyvern",                     // 157
     "Wurm",                       // 158
     "Devourer",                   // 159
     "Iksar Golem",                // 160
-    "Undead Iksar",               // 161
+    "Iksar Skeleton",             // 161
     "Man-Eating Plant",           // 162
     "Raptor",                     // 163
     "Sarnak Golem",               // 164
@@ -801,7 +801,7 @@
     "Parrot",                     // 792
     "Chest",                      // 793
     "Prowler Mount",              // 794
-    "Drake Mount",                // 795
+    "Wyvern Mount",               // 795
     "Ancient Wolf",               // 796
     "Ancient Spirit Wolf",        // 797
     "Ancient Chokidai",           // 798
@@ -847,11 +847,22 @@
     "Dragon",                     // 838
     "Trakanon",                   // 839
     "Sarnak Golem",               // 840
-    "Undead Sarnak",              // 841
+    "Sarnak Skeleton",            // 841
     "Yeti",                       // 842
     "Drolvarg",                   // 843
     "Atrebe",                     // 844
     "Cat",                        // 845
     "Sarnak",                     // 846
     "Dragon",                     // 847
+    "Venril Sathir",              // 848
+    "Fae Drake",                  // 849
+    "Iksar Golem",                // 850
+    "Dragon",                     // 851
+    "Dragon",                     // 852
+    "Chokidai Mount",             // 853
+    "Cockatrice Mount",           // 854
+    "Earth Elemental",            // 855
+    "Air Elemental",              // 856
+    "Water Elemental",            // 857
+    "Fire Elemental",             // 858
 #endif
