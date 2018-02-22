@@ -518,7 +518,7 @@ int32_t ZoneMgr::fillProfileStruct(charProfileStruct *player, const uint8_t *dat
   }
 
   // Unknown
-  netStream.skipBytes(145);
+  netStream.skipBytes(137);
 
   player->currentRadCrystals = netStream.readUInt32NC();
   player->careerRadCrystals = netStream.readUInt32NC();
