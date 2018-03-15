@@ -351,7 +351,7 @@ int32_t ZoneMgr::fillProfileStruct(charProfileStruct *player, const uint8_t *dat
   player->profile.copper_cursor = netStream.readUInt32NC();
 
   // Unknown
-  netStream.skipBytes(20);
+  netStream.skipBytes(16);
 
   player->profile.aa_spent = netStream.readUInt32NC();
 
@@ -407,17 +407,6 @@ int32_t ZoneMgr::fillProfileStruct(charProfileStruct *player, const uint8_t *dat
     }
     player->profile.bandoliers[i].ammo.itemId = netStream.readUInt32NC();
     player->profile.bandoliers[i].ammo.icon = netStream.readUInt32NC();
-  }
-
-  //Potion Belt (5 ints)
-  int potionCount = netStream.readUInt32NC();
-  for (int i = 0; i < potionCount; i++) {
-    name = netStream.readText();
-    if(name.length()) {
-      strncpy(player->profile.potionBelt[i].itemName, name.latin1(), 64);
-    }
-    player->profile.potionBelt[i].itemId = netStream.readUInt32NC();
-    player->profile.potionBelt[i].icon = netStream.readUInt32NC();
   }
 
   // Unknown
