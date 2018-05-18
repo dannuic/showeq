@@ -351,7 +351,7 @@ int32_t ZoneMgr::fillProfileStruct(charProfileStruct *player, const uint8_t *dat
   player->profile.copper_cursor = netStream.readUInt32NC();
 
   // Unknown
-  netStream.skipBytes(16);
+  netStream.skipBytes(20);
 
   player->profile.aa_spent = netStream.readUInt32NC();
 
